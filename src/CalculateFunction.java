@@ -26,7 +26,7 @@ public class CalculateFunction {
         List<Integer> arr = new ArrayList<>();
 
         int res = 1;
-        while(arr.stream().count() != elementCount) {
+        while(arr.toArray().length != elementCount) {
             if(res % 2 == 0) {
                 result.setResultArr(result.getResultArr() + " " + res);
                 result.setResultCalculation(result.getResultCalculation() + res);
@@ -43,7 +43,7 @@ public class CalculateFunction {
         List<Integer> arr = new ArrayList<>();
 
         int res = 1;
-        while(arr.stream().count() != elementCount) {
+        while(arr.toArray().length!= elementCount) {
             if(res % 2 != 0) {
                 result.setResultArr(result.getResultArr() + " " + res);
                 result.setResultCalculation(result.getResultCalculation() + res);
