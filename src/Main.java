@@ -13,8 +13,8 @@ public class Main {
 
             // Validate student name
             boolean isStudentNameValid = false;
-            System.out.print("Masukkan Nama Anda [1...25] : ");
             while (!isStudentNameValid) {
+            System.out.print("Masukkan Nama Anda [1...25] : ");
                 studentName = scanner.nextLine();
                 boolean checkStudentName = Validators.validateNameLength(studentName);
                 if (!checkStudentName) {
@@ -26,8 +26,8 @@ public class Main {
 
             // Validate NIM
             boolean isNIMValid = false;
-            System.out.print("Masukkan NIM Anda [karus 10 karakter] : ");
             while (!isNIMValid) {
+                System.out.print("Masukkan NIM Anda [karus 10 karakter] : ");
                 NIM = scanner.nextLine();
                 boolean checkStudentNIM = Validators.validateNIMLength(NIM);
                 if (!checkStudentNIM) {
