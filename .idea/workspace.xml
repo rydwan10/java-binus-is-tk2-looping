@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51387a07-22e5-4ab4-a189-e87e7e05fd73" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TK2Looping.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CalculateFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Validators.java" afterDir="false" />
+    <list default="true" id="51387a07-22e5-4ab4-a189-e87e7e05fd73" name="Changes" comment="Remove checking list using stream()">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TK2Looping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TK2Looping.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Validators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Validators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +34,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
   <component name="RunManager">
@@ -65,8 +64,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663985486234</updated>
-      <workItem from="1663985487465" duration="4005000" />
+      <workItem from="1663985487465" duration="8252000" />
+      <workItem from="1664189011053" duration="4346000" />
     </task>
+    <task id="LOCAL-00001" summary="Finish the app ✈️">
+      <created>1663989741413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663989741413</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Remove checking list using stream()">
+      <created>1664190483701</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664190483701</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,5 +97,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finish the app ✈️" />
+    <MESSAGE value="Remove checking list using stream()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove checking list using stream()" />
   </component>
 </project>
